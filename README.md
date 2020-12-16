@@ -7,4 +7,4 @@ Simple, readable, userful:
 
 let observable: Observable<MyCodable> = socket.observe(eventName: "message_updates")
 
-```
+```swift
