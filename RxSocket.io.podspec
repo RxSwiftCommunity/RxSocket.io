@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxSocket.io'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of RxSocket.io.'
+  s.version          = '1.0.0'
+  s.summary          = 'Listen to a codable! With RxSocket.io library your distance to whole socket complexity is a single line of code.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  'This library uses PublishSubjects and if the codable model decoded successfully, then the decoded object will send into that publishSubjec and return observable version of it.functionalities are separated into 2 different protocols of SocketToggle, SocketMessage'
                        DESC
 
   s.homepage         = 'https://github.com/behrad-kzm/RxSocket.io'
@@ -26,12 +26,16 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'behrad-kzm' => 'behrad.kzm@gmail.com' }
   s.source           = { :git => 'https://github.com/behrad-kzm/RxSocket.io.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://www.instagram.com/behrad._.kazemi/'
+  s.social_media_url = 'https://www.linkedin.com/in/kaazemi'
 
-  s.ios.deployment_target = '9.0'
-
-  s.source_files = 'RxSocket.io/Classes/**/*'
   
+  s.ios.deployment_target = '10.0'
+
+  s.source_files = 'RxSocket.io/Classes/**/*.{h,m,swift}'
+  s.dependency 'RxSwift'
+  s.dependency 'RxCocoa'
+  s.dependency 'Socket.IO-Client-Swift'
   # s.resource_bundles = {
   #   'RxSocket.io' => ['RxSocket.io/Assets/*.png']
   # }

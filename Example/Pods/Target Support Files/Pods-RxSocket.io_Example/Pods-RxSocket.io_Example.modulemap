@@ -1,0 +1,6 @@
+framework module Pods_RxSocket_io_Example {
+  umbrella header "Pods-RxSocket.io_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

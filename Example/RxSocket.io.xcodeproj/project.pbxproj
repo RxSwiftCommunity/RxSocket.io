@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0488E577258AA5AA00A5469F /* Pods_RxSocket_io_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0488E576258AA5AA00A5469F /* Pods_RxSocket_io_Example.framework */; };
+		0488E578258AA5AA00A5469F /* Pods_RxSocket_io_Example.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0488E576258AA5AA00A5469F /* Pods_RxSocket_io_Example.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		D7A68E1164EBF47BF6FB7A8D /* Pods_RxSocket_io_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9791C17F07D7EA9F02B9BC35 /* Pods_RxSocket_io_Example.framework */; };
 		E1E10117A2B59371EFA53CC4 /* Pods_RxSocket_io_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FFFB17CCCD5F616C3EB57B /* Pods_RxSocket_io_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +28,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0488E579258AA5AA00A5469F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0488E578258AA5AA00A5469F /* Pods_RxSocket_io_Example.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0488E56D258AA58300A5469F /* Pods_RxSocket_io_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_RxSocket_io_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0488E576258AA5AA00A5469F /* Pods_RxSocket_io_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_RxSocket_io_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1938D80EAB67FCA191F7A071 /* Pods-RxSocket.io_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSocket.io_Example.release.xcconfig"; path = "Target Support Files/Pods-RxSocket.io_Example/Pods-RxSocket.io_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3BE62B94E9CEF2D4DCBC26D1 /* Pods-RxSocket.io_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSocket.io_Example.debug.xcconfig"; path = "Target Support Files/Pods-RxSocket.io_Example/Pods-RxSocket.io_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		48D9FB85B55331217C01A238 /* Pods-RxSocket.io_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSocket.io_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RxSocket.io_Tests/Pods-RxSocket.io_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -41,12 +58,12 @@
 		607FACE51AFB9204008FA782 /* RxSocket.io_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSocket.io_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		64E772523AB26DC76B9515A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		64E772523AB26DC76B9515A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		67E2E0B4C3DB4C9FBE2F6C29 /* Pods-RxSocket.io_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSocket.io_Tests.release.xcconfig"; path = "Target Support Files/Pods-RxSocket.io_Tests/Pods-RxSocket.io_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		781D9157E154AE1E379D15D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		781D9157E154AE1E379D15D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9791C17F07D7EA9F02B9BC35 /* Pods_RxSocket_io_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSocket_io_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4FFFB17CCCD5F616C3EB57B /* Pods_RxSocket_io_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSocket_io_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5FDB2C5D8E1A21CB7593778 /* RxSocket.io.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RxSocket.io.podspec; path = ../RxSocket.io.podspec; sourceTree = "<group>"; };
+		F5FDB2C5D8E1A21CB7593778 /* RxSocket.io.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RxSocket.io.podspec; path = ../RxSocket.io.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7A68E1164EBF47BF6FB7A8D /* Pods_RxSocket_io_Example.framework in Frameworks */,
+				0488E577258AA5AA00A5469F /* Pods_RxSocket_io_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +89,8 @@
 		1660724363EB0C27F3921352 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0488E576258AA5AA00A5469F /* Pods_RxSocket_io_Example.framework */,
+				0488E56D258AA58300A5469F /* Pods_RxSocket_io_Example.framework */,
 				9791C17F07D7EA9F02B9BC35 /* Pods_RxSocket_io_Example.framework */,
 				C4FFFB17CCCD5F616C3EB57B /* Pods_RxSocket_io_Tests.framework */,
 			);
@@ -156,7 +175,6 @@
 				48D9FB85B55331217C01A238 /* Pods-RxSocket.io_Tests.debug.xcconfig */,
 				67E2E0B4C3DB4C9FBE2F6C29 /* Pods-RxSocket.io_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -172,6 +190,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				67D4FAA678E4D4A904F88C23 /* [CP] Embed Pods Frameworks */,
+				0488E579258AA5AA00A5469F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -228,6 +247,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -292,11 +312,21 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RxSocket.io_Example/Pods-RxSocket.io_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSocket.io/RxSocket_io.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSocket_io.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
