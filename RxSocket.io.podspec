@@ -30,8 +30,9 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://www.linkedin.com/in/kaazemi'
 
   
-  s.ios.deployment_target = '10.0'
-
+  s.ios.deployment_target = '12.0'
+  s.swift_version = '5'
+  
   s.source_files = 'RxSocket.io/Classes/**/*.{h,m,swift}', 'RxSocket.io/Classes/*.{h,m,swift}'
   s.dependency 'RxSwift'
   s.dependency 'RxCocoa'

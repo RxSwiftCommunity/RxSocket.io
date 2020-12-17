@@ -17,8 +17,9 @@
   },
   "social_media_url": "https://www.linkedin.com/in/kaazemi",
   "platforms": {
-    "ios": "10.0"
+    "ios": "12.0"
   },
+  "swift_versions": "5",
   "source_files": [
     "RxSocket.io/Classes/**/*.{h,m,swift}",
     "RxSocket.io/Classes/*.{h,m,swift}"
@@ -33,5 +34,6 @@
     "Socket.IO-Client-Swift": [
 
     ]
-  }
+  },
+  "swift_version": "5"
 }
