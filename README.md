@@ -11,15 +11,51 @@ let observable: Observable<MyCodable> = socket.observe(eventName: "message_updat
 # But how?
 This library uses PublishSubjects and if the codable model decoded successfully, then the decoded object will send into that publishSubjec and return observable version of it.
 
+```swift
+
+// RxSocketTerminalInterface & RxSocketToggle protocols
+let rxSocket = RxSocketProvider().makeSocketHandler(auth:["token": "your_token"], url: your_url) 
+
+rxSocket.start().subscribe().disposedBy(disposeBag)
+
+rxSocket.send(eventName: "your_event_name", model: myCodable)
+
+```
+
 functionalities are separated into 2 different protocols:
 ## 1- SocketToggle
 
 This is for connect or disconnect mostly recommended to use where you don't want to listen any model for example inside the AppDelegate.
 
+this only allows you to connect and disconnect socket
+
+
+```swift
+
+let socketToggle: RxSocketToggle = RxSocketProvider().makeSocketHandler(auth:["token": "your_token"], url: your_url)
+
+socketToggle.start().subscribe().disposedBy(disposeBag)
+
+socketToggle.stop()
+
+```
+
 ## 2- SocketMessage
 
 This is for send and receive models in specific eventNames.
 
+this only allows you to listen for a model or sending it on a specific event.
+
+
+```swift
+
+let socketTerminal: RxSocketTerminalInterface = RxSocketProvider().makeSocketHandler(auth:["token": "your_token"], url: your_url)
+
+let observable: Observable<MyCodable> = socketTerminal.observe(eventName: "your_event_name")
+
+socketTerminal.send(eventName: "your_event_name", model: myCodable)
+
+```
 
 # RxSocket.io
 
@@ -34,6 +70,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+  - RxSwift
+  - Socket.io
+  
 ## Installation
 
 RxSocket.io is available through [CocoaPods](https://cocoapods.org). To install
