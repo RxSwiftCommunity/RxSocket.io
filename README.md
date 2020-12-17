@@ -13,7 +13,8 @@ This library uses PublishSubjects and if the codable model decoded successfully,
 
 ```swift
 
-let rxSocket = RxSocketProvider().makeSocketHandler(auth:["token": "your_token"], url: your_url) // RxSocketTerminalInterface & RxSocketToggle protocols
+// RxSocketTerminalInterface & RxSocketToggle protocols
+let rxSocket = RxSocketProvider().makeSocketHandler(auth:["token": "your_token"], url: your_url) 
 
 rxSocket.start().subscribe().disposedBy(disposeBag)
 
