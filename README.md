@@ -13,11 +13,11 @@ This library uses PublishSubjects and if the codable model decoded successfully,
 
 ```swift
 
-let socket = RxSocketProvider().makeSocketHandler(auth:["token": "your_token"], url: your_url) // RxSocketTerminalInterface & RxSocketToggle protocols
+let rxSocket = RxSocketProvider().makeSocketHandler(auth:["token": "your_token"], url: your_url) // RxSocketTerminalInterface & RxSocketToggle protocols
 
-socket.start().subscribe().disposedBy(disposeBag)
+rxSocket.start().subscribe().disposedBy(disposeBag)
 
-socket.send(eventName: "your_event_name", model: myCodable)
+rxSocket.send(eventName: "your_event_name", model: myCodable)
 
 ```
 
