@@ -19,7 +19,10 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "RxSocket.io/Classes/**/*.{h,m,swift}",
+  "source_files": [
+    "RxSocket.io/Classes/**/*.{h,m,swift}",
+    "RxSocket.io/Classes/*.{h,m,swift}"
+  ],
   "dependencies": {
     "RxSwift": [
 

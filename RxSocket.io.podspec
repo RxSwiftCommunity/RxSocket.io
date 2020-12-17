@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'RxSocket.io/Classes/**/*.{h,m,swift}'
+  s.source_files = 'RxSocket.io/Classes/**/*.{h,m,swift}', 'RxSocket.io/Classes/*.{h,m,swift}'
   s.dependency 'RxSwift'
   s.dependency 'RxCocoa'
   s.dependency 'Socket.IO-Client-Swift'
