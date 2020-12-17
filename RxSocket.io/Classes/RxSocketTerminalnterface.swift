@@ -9,7 +9,7 @@
 import Foundation
 import RxSwift
 
-public protocol RxSocketTerminalInterdace {
+public protocol RxSocketTerminalInterface {
 	
 	
 	/// Generic function that observe to listen to a specific  *Decodable*  model

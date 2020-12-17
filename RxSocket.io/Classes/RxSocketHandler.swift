@@ -10,7 +10,7 @@ import Foundation
 import RxSwift
 import SocketIO
 
-public class RxSocketHandler: RxSocketTerminalInterdace, RxSocketToggle {
+public class RxSocketHandler: RxSocketTerminalInterface, RxSocketToggle {
   
   private let manager: SocketManager
   private let socket: SocketIOClient
