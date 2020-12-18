@@ -3,7 +3,7 @@
 //  RxSocket.io
 //
 //  Created by Behrad Kazemi on 7/22/20.
-//  Copyright © 2020 RxSocket.io. All rights reserved.
+//  Copyright © RxSwiftCommunity. All rights reserved.
 //
 
 import Foundation

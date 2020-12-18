@@ -88,4 +88,4 @@ behrad-kzm, behrad.kzm@gmail.com
 
 ## License
 
-RxSocket.io is available under the MIT license. See the LICENSE file for more info.
+RxSocket.io is available under the Copyright © RxSwiftCommunity. See the LICENSE file for more info.

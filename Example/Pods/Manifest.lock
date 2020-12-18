@@ -6,7 +6,7 @@ PODS:
     - RxSwift (~> 5)
   - RxRelay (5.1.1):
     - RxSwift (~> 5)
-  - RxSocket.io (1.0.0):
+  - RxSocket.io (1.0.2):
     - RxCocoa
     - RxSwift
     - Socket.IO-Client-Swift
@@ -39,7 +39,7 @@ SPEC CHECKSUMS:
   Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
-  RxSocket.io: c116e66d891a2ef690305ca2470cb5057bc5fe03
+  RxSocket.io: 3dec23ff81c02d50f65c7b72c71030da9010e010
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
   Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
