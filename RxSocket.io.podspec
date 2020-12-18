@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxSocket.io'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'Listen to a codable! With RxSocket.io library your distance to whole socket complexity is a single line of code.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'behrad-kzm' => 'behrad.kzm@gmail.com' }
-  s.source           = { :git => 'https://github.com/RxSwiftCommunity/RxSocket.io', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/RxSwiftCommunity/RxSocket.io.git', :tag => s.version.to_s }
   s.social_media_url = 'https://www.instagram.com/behrad._.kazemi/'
   s.social_media_url = 'https://www.linkedin.com/in/kaazemi'
 
