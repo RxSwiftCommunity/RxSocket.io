@@ -82,6 +82,10 @@ it, simply add the following line to your Podfile:
 pod 'RxSocket.io'
 ```
 
+## Tip💡
+If you want to implement socket.io on server side latest version of socket.io does not work with the latest socket.io protocols.
+check this post on [StackOverflow](https://stackoverflow.com/a/65483535)
+
 ## Author
 
 behrad-kzm, behrad.kzm@gmail.com
